@@ -1,3 +1,4 @@
+import { Logo } from "@/components/shared/Logo";
 import { Flex, Input } from "antd";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,16 +9,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 flex w-full items-center justify-between gap-x-10 bg-primary px-2 py-4 md:px-8 lg:px-20">
-      <Link href={"/"} className="flex items-center gap-2">
-        <Image
-          src={"/assets/images/logo.png"}
-          width={20}
-          height={20}
-          alt="logo"
-          className="object-contain"
-        />
-        <h1 className="text-xl font-bold uppercase text-neutral">falcon</h1>
-      </Link>
+      <Logo />
 
       <Flex
         align="center"
