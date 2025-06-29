@@ -15,19 +15,18 @@ export default {
     },
     extend: {
       backgroundColor: {
-        primary: "#09a4ff",
-        secondary: "#20252F",
-        "secondary-50": "#fafafa",
+        primary: "#0F172A",
+        secondary: "#00B795",
         neutral: "#fff",
       },
       colors: {
-        primary: "#09a4ff",
-        secondary: "#20252F",
+        primary: "#0F172A",
+        secondary: "#00B795",
         neutral: "#fff",
       },
       borderColor: {
-        primary: "#09a4ff",
-        secondary: "#20252F",
+        primary: "#0F172A",
+        secondary: "#00B795",
         neutral: "#fff",
       },
       screens: {
